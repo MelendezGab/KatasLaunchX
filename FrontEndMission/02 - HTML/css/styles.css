@@ -1,0 +1,35 @@
+
+body{
+    background-color: #fffbf5;
+}
+form{
+    background-color: rgb(200, 200, 200, 0.5);
+    margin-left: 100px;    
+    width: 30%;
+}
+.main_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}  
+.h_item{
+    float: left;
+}  
+.h_item a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+.h_item a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #757036;
+}
+.request_table{
+    width: 90%;
+}
