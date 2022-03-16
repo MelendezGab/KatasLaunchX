@@ -1,0 +1,434 @@
+
+body{
+    
+}
+
+.main_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    overflow: hidden;
+    font-size: 20;
+    float: top;
+}  
+
+.menu_bar{
+    position: absolute;
+    top: 0;
+    left: 0;    
+    background-color: #fff;
+    opacity: 0.7;
+    filter: blur(1);
+    width: 100%;
+    height: 150px;
+}
+.menu_container{
+    position: absolute;
+    width: 100%
+}
+.h_item{
+    float: right;
+    display: block;
+    color: #6e7c94;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-weight:600;
+}
+.h_item_yellow{
+    margin-left: 60px;
+    float: left;
+    display: block;
+    color: #324e7e;
+    text-align: center;
+    text-decoration: none;
+    font-weight:600;
+}
+.h_item_info{
+    float: left;
+    display: block;
+    color: #6e7c94;
+    padding: auto;
+    text-decoration: none;
+    font-weight:600;
+    padding: 20 60 0;
+    font-size: 20;
+}
+.yellow-icon{
+    color: #ffd012;
+    background-color: #fff9e4;
+    border-radius: 2px;
+    transform:scale(1);
+    vertical-align: middle;
+    margin: 0 10 0 0;
+}
+.blue-icon{
+    color: #3656d4;
+    background-color: #e9f1fe;
+    border-radius: 2px;
+    transform:scale(1.2);
+    vertical-align: middle;
+    margin-right:10;    
+}
+.h_item a:hover:not(.active) {
+    background-color: #111;
+}
+.h_logo_item{
+    float:left;
+    color: #3252d0;
+    font-size: 30;
+    font-weight: bold;
+}
+.blue_button{
+    background-color: #2b4bc9;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-right: 100px;
+    color: #eff1f8;
+    box-shadow: 0px 5px 10px #555;
+}
+.active {
+    background-color: #757036;
+}
+.request_table{
+    width: 90%;
+}
+section{
+    height: 900px;
+}
+.child1_sec1{
+    width: 50%;    
+    height: 100%;
+    background-color: #fff;
+    float: left;
+
+}
+.child2_sec1{
+    width: 50%;
+    height: 100%;
+    background-color: #1090e4;
+    float: right;
+}
+
+.child_blue{
+    background-color: #1090e4;
+}
+.blue_text{
+    font-size: 60;
+    color: #1f3e72;
+    margin: 180 0 0 100;
+}
+.gray_text{
+    font-size: 20;
+    color: #6d7b93;
+    margin-left: 100px;
+
+}
+.div_img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.div_img img{
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+}
+.vaccine_information{
+    position: absolute;
+    border-color: #000;
+    border-radius: 15px;
+    background-color: #fff;
+    margin: 650 0 0 100;
+    width: 60%;
+    opacity: 0.8;
+    height: 200px;
+    box-shadow: 0px 15px 20px #555;
+}
+.container_vaccine_information{
+    position: absolute;
+    margin: 650 0 0 100;
+    width: 60%;
+    height: 200px;
+}
+.vaccine_fields{
+    width: 100%;
+}
+.vaccine_values{
+    position: relative;
+}
+.h_item_values{
+    padding-top: 0;
+    color: #1f3e72;
+}
+.header_blue_text{
+    position: absolute;
+    margin: 600 0 0 100;
+    font-size: larger;
+    font-weight: bold;
+    color: #1f3e72;
+}
+/* Section 2*/
+
+.child1_sec2{
+    width: 100%;
+    height: 25%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.child2_sec2{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background-color: #fff;
+    align-items: center;
+    box-shadow: 0px 5px 15px #888;
+}
+.child3_sec2{
+    width: 100%;
+    height: 45%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.text_sec2{     
+    margin-left: 100px;
+}
+.header_text_sec2{
+    font-weight: bold;
+    color: #1f3e72;
+}
+.text_sec2_child2{
+    color: #6d7b93;    
+    display: flex;
+}
+.benefit_box{
+    background-color: #fff;
+    margin: 0 20 60 20;
+    width: 300;
+    box-shadow: 0px 15px 30px #888;      
+    border-radius: 15px; 
+}
+.benefit_icon{    
+    transform:scale(2);
+    margin: 30 0 0 30;
+}
+.benefit-box-header{
+    margin: 0 0 0 20;
+    color: #2c497c;
+}
+.benefit-box-text{    
+    margin: 20 0 0 20;
+    font-weight: 600;
+    color: #728097;
+}
+.img-box-sec2{
+    width: 22%;
+}
+.img-box-sec2 img{
+    max-width: 100%;
+}
+.sec3_child1{
+    width: 100%;
+    height: 40%;   
+    display: flex;
+    align-items: flex-end;
+}
+.sec3_child2{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 60%;
+}
+.sec3_left_container{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+.sec3_child_left{   
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    background-color: #1589e3;   
+    justify-content: center;
+}
+.img_left{
+    width: 70%;
+    position: absolute;
+    bottom: 0;    
+}
+.sec3_text{
+    margin-left: 55%;
+    margin-bottom: 5%;
+}
+.sec3_right_container{
+    width: 50%;
+    height: 100%;
+    padding-left: 2%;
+}
+.sec3_list li{
+    list-style-type: none;
+    width: 80%;
+    padding: 15 0 15 10;
+    margin: 30 0 30 0 ;
+    color: #2f4b7c;
+    font-weight: bold;
+    box-shadow: 0px 0px 15px #ccc;
+    border-radius: 5px;
+}
+.icon_left{
+    float: right;
+}
+.sec3_text_option{
+    color: #8490a5;
+    padding: 20 0 0 40;
+    font-weight: normal;
+
+}
+.section4{
+    display: flex;
+}
+.vertical_child_50{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+.sec4_child_up{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec4_child_down{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.contact_boxes{
+    padding: 10 100 10 100;
+}
+.sec4_blue_child{
+    background-color:#1589e3; 
+    display: flex;  
+    justify-content: center;
+    align-items: flex-end;
+}
+.contact_box{
+    height: 200px;
+    width: 200px;
+    margin: 10 10 10 10;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 15px #ccc;
+}
+.contact_box table{
+    width: 80%;
+}
+.contact_button{
+    margin-top: 20%;
+    display: flex;
+    width: 80%;
+    height: 25%;
+    background-color: #f1f5ff;
+    color: #3050ce;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: bold;      
+}
+.td_head{
+    font-weight: bold;
+    color: #2f4b7c;
+}
+.td_text{
+    color: #6d7b93;
+}
+.contact_icon{
+    transform:scale(1.5);
+}
+.blue_contact_button{
+    color: #fff;
+    background-color:#2949c7;
+    box-shadow: 0px 10px 15px #888;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    margin-top: 120px;
+    background-color: #eef3ff;
+    display: flex;
+}
+.footer_child{
+    width: 50%;
+}
+.footer_child1{
+    margin: 50 0 0 100;
+}
+.footer_child2{
+    margin: 50 0 0 0;
+    display: flex;
+}
+.vaccine_title{
+    color: #3050ce;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.footer_text{
+    color: #6d7b93;
+    font-weight: 500;
+
+}
+.footer_list{
+    padding-right: 30; 
+}
+.footer_list li{
+    list-style-type: none;
+    color: #6d7b93;
+    font-weight: 500;    
+    padding: 0 0 20 0;
+}
+.list_header{
+    font-size: large;
+    font-weight: bold;
+    color: #1f3e72;  
+    margin-bottom: 30;  
+}
+.legal_inf{
+    background-color: #eef3ff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.rights_reserved{
+    float: left;
+}
+.rights_reserved{
+    padding-left: 100px;
+    flex-grow: 1.5;
+}
+.privacy_pol{
+    flex-grow: 0.5;
+    text-align: center;
+    padding-right: 100px;
+
+}
+.terms{
+    flex-grow: 0.5;
+    text-align: right;
+}
