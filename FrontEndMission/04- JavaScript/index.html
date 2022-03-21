@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta lang="en" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="./js/util.js"></script>
+</head>
+<body>
+    <div class="pokedex_header">  
+        <div class="header">            
+            <h1>Pokedex LaunchX</h1>
+        </div>     
+    </div>
+    <div class="pokedex_section">
+        <div class="pokedex_container">
+            <div class="pokedex_display_container">
+                <div class="vertical_container">
+                    <div class="input_div">
+                        <input id="pokemon_name" name="pokemon_name" placeholder="Enter a pokemon name" class="input_name"> <br>
+                    </div>
+                    <div class="display">                    
+                        <img  class="pokemon_img" id="pokemon_img" src="./img/pokeball.png" alt="Pokemon image"> <br>
+                    </div>                    
+                </div>
+            </div>
+            <div class="info_container">
+                <div class="type_container">                
+                    <div class="type_card"><label class="card_header" id="type_card_header"> </label><label class="type_card_value" id="type_value"></label></div> 
+                </div>
+                <div class="cards_container">                    
+                    <div class="info_card"><span class="card_header"> Combat power   </span><label class="card_value" id="cp_value">      </label></div>
+                    <div class="info_card"><span class="card_header"> Speed          </span><label class="card_value" id="speed_value">   </label></div>
+                    <div class="info_card"><span class="card_header"> Attack         </span><label class="card_value" id="attack_value">  </label></div>
+                    <div class="info_card"><span class="card_header"> Defense        </span><label class="card_value" id="defense_value"> </label></div>
+                    <div class="info_card"><span class="card_header"> Special attack </span><label class="card_value" id="sattack_value"> </label></div>
+                    <div class="info_card"><span class="card_header"> Special defense</span><label class="card_value" id="sdefense_value"></label></div>    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
